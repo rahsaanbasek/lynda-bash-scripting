@@ -11,3 +11,9 @@ d=$(pwd)
 
 echo "$a, $b! I have $c apples."
 echo $d
+
+d=2
+e=$((d+2))
+echo $e
+((e++))
+echo $e
